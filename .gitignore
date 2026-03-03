@@ -1,0 +1,18 @@
+# Evidence & Scan Outputs (Don't leak raw large files)
+*.pcap
+*.pcapng
+*.log
+*.tmp
+
+# Credentials & Sensitive Data (Safety first!)
+passwords.txt
+creds.json
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Tool-specific (e.g., if you use Python for automation)
+__pycache__/
+*.pyc
